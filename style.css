@@ -1,0 +1,70 @@
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/023/325/995/non_2x/mood-concept-emotions-scale-excellent-good-and-normal-bad-and-awful-tiny-people-leave-feedback-emoji-set-for-mood-tracker-modern-flat-cartoon-style-illustration-on-white-background-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInBody 2s ease-in-out;
+}
+
+@keyframes fadeInBody {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  border-radius: 20px;
+  color: white;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  animation: slideDown 1s ease-out;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+textarea {
+  resize: none;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.animate-btn {
+  transition: transform 0.2s ease;
+}
+.animate-btn:hover {
+  transform: scale(1.05);
+}
+
+#result {
+  font-size: 1.8rem;
+  font-weight: bold;
+  animation: popIn 0.8s ease;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
