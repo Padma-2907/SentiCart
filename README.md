@@ -14,27 +14,6 @@ This project is a user-friendly Sentiment Analysis Web Application powered by a 
 
 ---
 
-## 📁 Project Structure
-sentiment-analysis-app/
-│
-├── backend/
-│ ├── app.py # Flask backend API
-│ └── saved_model/ # Trained model files
-│ ├── config.json
-│ ├── model.safetensors
-│ ├── tokenizer_config.json
-│ ├── tokenizer.json
-│ ├── special_tokens_map.json
-│ └── vocab.txt
-│
-├── frontend/
-│ ├── index.html # Webpage UI
-│ ├── style.css # Styling and animations
-│ └── script.js # Handles API requests
-│
-├── .gitignore
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
 ## ⚙️ Installation & Setup
 
 
